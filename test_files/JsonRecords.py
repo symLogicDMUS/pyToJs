@@ -1,5 +1,4 @@
-from custom_except import *
-from coordType.to_xy import to_xy
+ from coordType.to_xy import to_xy
 from coordType.to_rankfile import to_rankfile
 from getters.get_piece_type import get_piece_type
 from getters.get_piece_types import get_piece_types

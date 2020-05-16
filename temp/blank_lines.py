@@ -1,4 +1,4 @@
-from blank_line import blank_line
+from temp.blank_line import blank_line
 from itertools import filterfalse
 
 

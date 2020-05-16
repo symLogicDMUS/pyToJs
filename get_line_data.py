@@ -1,32 +1,30 @@
 from line_to_tuple import line_to_tuple
 from print_list import print_list
+from pprint import pprint
 
 
 def get_line_data(lines):
+    line_data_dict = {}
     line_data = []
     for i in range(len(lines)):
         line_data.append(line_to_tuple(i, lines[i]))
-    return line_data
+        line_data_dict[i] = line_data[-1]
+    return line_data, line_data_dict
 
 
 if __name__ == "__main__":
     lines = \
-        ['from custom_except import *\n',
-         'from coordType.to_xy import to_xy\n',
+        [' from coordType.to_xy import to_xy\n',
          'from coordType.to_rankfile import to_rankfile\n',
          'from getters.get_piece_type import get_piece_type\n',
          'from getters.get_piece_types import get_piece_types\n',
          'from misc.g_status_types import *\n',
          'from misc.JsonRecordError import JsonRecordError\n',
          'import json\n',
-         '\n',
-         '\n',
          'class JsonRecords(object):\n',
          '    """contains info for new or saved game relevant to perfoming a castle or '
          'en_passant"""\n',
-         '\n',
          '    def __init__(self, file, board, j_records=None):\n',
-         '\n',
          '        if j_records is None:\n',
          '            f = open(file, "r")\n',
          '            json_data = f.read()\n',
@@ -35,7 +33,6 @@ if __name__ == "__main__":
          '            f.close()\n',
          '        else:\n',
          '            records = j_records\n',
-         '\n',
          "        self.rooks_moved = records['rooks_moved']\n",
          "        self.kings_moved = records['kings_moved']\n",
          "        self.pawn_histories = records['pawn_histories']\n",
@@ -45,13 +42,11 @@ if __name__ == "__main__":
          "        self.game_status = records['game_status']\n",
          "        self.condition = records['condition']\n",
          "        self.winner = records['winner']\n",
-         '\n',
          '        if j_records is None:\n',
          '            self._init_pawn_ids(board, file=file)\n',
          '            self._rankfile_to_tuple()\n',
          '        else:\n',
          '            self._rankfile_to_tuple(from_web=True)\n',
-         '\n',
          '    def _init_pawn_ids(self, board, file=""):\n',
          '        """exchange the sqr that pawn started the game with, with the id for '
          'that pawn"""\n',
@@ -67,7 +62,6 @@ if __name__ == "__main__":
          '                print(id_)\n',
          '                raise JsonRecordError\n',
          '        self.pawn_histories = pawn_histories\n',
-         '\n',
          '    def _init_pawn_locs(self):\n',
          '        """swap the key of each pawn_history entry with the coordinate of '
          'its current location"""\n',
@@ -76,7 +70,6 @@ if __name__ == "__main__":
          '            sqr = hist[-1]\n',
          '            pawn_histories[sqr] = hist\n',
          '        self.pawn_histories = pawn_histories\n',
-         '\n',
          '    def _rankfile_to_tuple(self, from_web=False):\n',
          '        """convert the keys and ids for each type of record from a rankfile '
          'to a tuple"""\n',
@@ -84,7 +77,6 @@ if __name__ == "__main__":
          '        kings_moved = {}\n',
          '        pawn_histories = {}\n',
          '        last_pawn_move = None\n',
-         '\n',
          '        for rf in self.rooks_moved.keys():\n',
          '            xy = to_xy(rf)\n',
          '            rooks_moved[xy] = self.rooks_moved[rf]\n',
@@ -107,7 +99,6 @@ if __name__ == "__main__":
          '        self.pawn_histories = pawn_histories\n',
          "        if self.last_pawn_move != 'None':\n",
          '            self.last_pawn_move = to_xy(self.last_pawn_move)\n',
-         '\n',
          '    def _tuple_to_rankfile(self, for_web=False):\n',
          '        """convert the keys and ids for each type of record from a tuple to '
          'a rankfile"""\n',
@@ -137,7 +128,6 @@ if __name__ == "__main__":
          '        self.pawn_histories = pawn_histories\n',
          "        if self.last_pawn_move != 'None':\n",
          '            self.last_pawn_move = to_rankfile(self.last_pawn_move)\n',
-         '\n',
          '    def update_hist(self, id_, start, dest, promo_flag):\n',
          '        """update json records depending on the piece type of id_ at '
          'location start"""\n',
@@ -153,7 +143,6 @@ if __name__ == "__main__":
          '            self.last_pawn_move = dest\n',
          '            self.update_pawn_history(id_, dest, promo_flag)\n',
          '        return\n',
-         '\n',
          '    def update_state(self, board, ranges, enemy_color, npck):\n',
          '        """\n',
          '         update the status of the game: OVER or IN_PROGRESS\n',
@@ -165,7 +154,6 @@ if __name__ == "__main__":
          '         :param ranges: dict, ranges of pieces of color\n',
          '         :param enemy_color: str, color of king\n',
          '        """\n',
-         '\n',
          '        if not any(ranges.values()):\n',
          '            if npck > 0:\n',
          "                self.condition, self.game_status, self.winner = 'checkmate', "
@@ -174,7 +162,6 @@ if __name__ == "__main__":
          "                self.condition, self.game_status, self.winner = 'stalemate', "
          "OVER, '-'\n",
          '            return\n',
-         '\n',
          '        piece_types = get_piece_types(board)\n',
          "        if piece_types in [['King', 'King'], ['Bishop', 'King', 'King'], "
          "['King', 'King', 'Knight']]:\n",
@@ -186,17 +173,14 @@ if __name__ == "__main__":
          '        else:\n',
          "            self.condition, self.game_status, self.winner = '', IN_PROGRESS, "
          "'-'\n",
-         '\n',
          '    def update_rooks_moved(self, sqr):\n',
          '        """update rooks_moved because rook that start game at sqr has '
          'moved"""\n',
          '        self.rooks_moved[sqr] = True\n',
-         '\n',
          '    def update_kings_moved(self, sqr):\n',
          '        """update kings_moved because king that started game at sqr has '
          'moved"""\n',
          '        self.kings_moved[sqr] = True\n',
-         '\n',
          '    def update_pawn_history(self, id_, new_loc, promo):\n',
          '        """update location of pawn by appending its new location to its '
          'history"""\n',
@@ -204,7 +188,6 @@ if __name__ == "__main__":
          '            del self.pawn_histories[id_]\n',
          '        else:\n',
          '            self.pawn_histories[id_].append(new_loc)\n',
-         '\n',
          '    def get_records(self, for_web=False):\n',
          '        """return the json records as one python dict"""\n',
          '        if for_web:\n',
@@ -217,16 +200,13 @@ if __name__ == "__main__":
          'self.num_consecutive_non_pawn_moves,\n',
          "                'game_status': self.game_status, 'condition': "
          "self.condition, 'winner': self.winner}\n",
-         '\n',
          '    def reset_non_pawn_moves(self):\n',
          '        """ a pawn has just moved, so reset number of consecutive non pawn '
          'moves to 0"""\n',
          '        self.num_consecutive_non_pawn_moves = 0\n',
-         '\n',
          '    def delete_pawn(self, id):\n',
          '        """delete pawn with id from pawn histories"""\n',
          '        del self.pawn_histories[id]\n',
-         '\n',
          '    def has_king_moved(self, color):\n',
          '        """return true/false of if the King of color has moved from its '
          'starting position"""\n',
@@ -237,7 +217,6 @@ if __name__ == "__main__":
          '        else:\n',
          "            print('error: not a valid color\\n')\n",
          '            return -1\n',
-         '\n',
          '    def get_start_king(self, color):\n',
          '        """get starting position of king based off of color"""\n',
          "        if color == 'W':\n",
@@ -247,34 +226,26 @@ if __name__ == "__main__":
          '        else:\n',
          "            print('error:invalid color')\n",
          '            return -1\n',
-         '\n',
          '    def update_rook_dict(self, rooks_moved):\n',
          '        """update rooks_moved dict to a new one"""\n',
          '        self.rooks_moved = rooks_moved\n',
-         '\n',
          '    def queen_side_rook_moved(self, color):\n',
          '        """return true if the queen side rook of the given color has moved, '
          'otherwise false"""\n',
-         '\n',
          "        if color == 'W':\n",
          '            return self.rooks_moved[(1, 1)]\n',
          "        elif color == 'B':\n",
          '            return self.rooks_moved[(1, 8)]\n',
-         '\n',
          '    def king_side_rook_moved(self, color):\n',
          '        """return true if the king side rook of the given color has moved, '
          'otherwise false"""\n',
-         '\n',
          "        if color == 'W':\n",
          '            return self.rooks_moved[(8, 1)]\n',
          "        elif color == 'B':\n",
          '            return self.rooks_moved[(8, 8)]\n',
-         '\n',
          '    def __str__(self):\n',
          '        """called when object is argument to print"""\n',
-         '\n',
          '        str_ = ""\n',
-         '\n',
          '        str_ += \'"rooks_moved": {\\n\'\n',
          '        for k, v in self.rooks_moved.items():\n',
          '            str_ += str(k)\n',
@@ -282,7 +253,6 @@ if __name__ == "__main__":
          '            str_ += str(v)\n',
          "            str_ += '\\n'\n",
          "        str_ += '},\\n'\n",
-         '\n',
          '        str_ += \'"kings_moved": {\\n\'\n',
          '        for k, v in self.kings_moved.items():\n',
          '            str_ += str(k)\n',
@@ -290,7 +260,6 @@ if __name__ == "__main__":
          '            str_ += str(v)\n',
          "            str_ += '\\n'\n",
          "        str_ += '},\\n'\n",
-         '\n',
          '        str_ += \'"pawn_histories": {\\n\'\n',
          '        for k, v in self.pawn_histories.items():\n',
          '            str_ += str(k)\n',
@@ -298,30 +267,24 @@ if __name__ == "__main__":
          '            str_ += str(v)\n',
          "            str_ += '\\n'\n",
          "        str_ += '},\\n'\n",
-         '\n',
          "        str_ += 'last_pawn_move'\n",
          "        str_ += ':'\n",
          '        str_ += str(self.last_pawn_move)\n',
          "        str_ += ',\\n'\n",
-         '\n',
          "        str_ += 'num_consecutive_non_pawn_moves'\n",
          "        str_ += ':'\n",
          '        str_ += str(self.num_consecutive_non_pawn_moves)\n',
          "        str_ += ',\\n'\n",
-         '\n',
          "        str_ += 'game_status'\n",
          "        str_ += ':'\n",
          '        str_ += str(self.game_status)\n',
          "        str_ += ',\\n'\n",
-         '\n',
          "        str_ += 'winner'\n",
          "        str_ += ':'\n",
          '        str_ += str(self.winner)\n',
          "        str_ += ',\\n'\n",
-         '\n',
          '        return str_\n',
-         '\n',
-         '\n',
          'if __name__ == "__main__":\n',
-         '    pass  # TODO: implement test']
-    print_list(get_line_data(lines))
+         '    pass  # TODO: implement test\n']
+    line_data, line_data_dict = get_line_data(lines)
+    print_list(line_data)
