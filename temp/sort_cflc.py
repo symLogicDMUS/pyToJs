@@ -1,0 +1,86 @@
+from operator import itemgetter
+from print_list import print_list
+
+
+def sort_cflc(cflc):
+    """ """
+    cflc = sorted(cflc, key=itemgetter(1, 0))
+    return cflc
+
+
+if __name__ == "__main__":
+    cflc = \
+        [
+            [10, 0, 'class JsonRecords(object):\n'],
+            [13, 4, '    def __init__(self, file, board, j_records=None):\n'],
+            [15, 8, '        if j_records is None:\n'],
+            [21, 8, '        else:\n'],
+            [33, 8, '        if j_records is None:\n'],
+            [36, 8, '        else:\n'],
+            [39, 4, '    def _init_pawn_ids(self, board, file=""):\n'],
+            [42, 8, '        for hist in self.pawn_histories.values():\n'],
+            [46, 12, "            if get_piece_type(id_) != 'Pawn':\n"],
+            [54, 4, '    def _init_pawn_locs(self):\n'],
+            [57, 8, '        for hist in self.pawn_histories.values():\n'],
+            [62, 4, '    def _rankfile_to_tuple(self, from_web=False):\n'],
+            [69, 8, '        for rf in self.rooks_moved.keys():\n'],
+            [72, 8, '        for rf in self.kings_moved.keys():\n'],
+            [75, 8, '        if from_web:\n'],
+            [76, 12, '            for id_ in self.pawn_histories.keys():\n'],
+            [78, 8, '        else:\n'],
+            [79, 12, '            for rf1 in self.pawn_histories.keys():\n'],
+            [82, 16, '                for rf2 in self.pawn_histories[rf1]:\n'],
+            [88, 8, "        if self.last_pawn_move != 'None':\n"],
+            [91, 4, '    def _tuple_to_rankfile(self, for_web=False):\n'],
+            [97, 8, '        for xy in self.rooks_moved.keys():\n'],
+            [100, 8, '        for xy in self.kings_moved.keys():\n'],
+            [103, 8, '        if for_web:\n'],
+            [104, 12, '            for id_ in self.pawn_histories.keys():\n'],
+            [106, 8, '        else:\n'],
+            [107, 12, '            for xy1 in self.pawn_histories.keys():\n'],
+            [110, 16, '                for xy2 in self.pawn_histories[xy1]:\n'],
+            [116, 8, "        if self.last_pawn_move != 'None':\n"],
+            [119, 4, '    def update_hist(self, id_, start, dest, promo_flag):\n'],
+            [122, 8, '        if p_type != "Pawn":\n'],
+            [124, 12, "            if p_type == 'Rook' and start in self.rooks_moved.keys():\n"],
+            [126, 12, "            elif p_type == 'King' and start in self.kings_moved.keys():\n"],
+            [128, 8, '        else:\n'],
+            [134, 4, '    def update_state(self, board, ranges, enemy_color, npck):\n'],
+            [145, 8, '        if not any(ranges.values()):\n'],
+            [146, 12, '            if npck > 0:\n'],
+            [148, 12, '            else:\n'],
+            [153, 8,
+             "        if piece_types in [['King', 'King'], ['Bishop', 'King', 'King'], ['King', 'King', 'Knight']]:\n"],
+            [155, 8, '        elif npck > 0:\n'],
+            [157, 8, '        else:\n'],
+            [160, 4, '    def update_rooks_moved(self, sqr):\n'],
+            [164, 4, '    def update_kings_moved(self, sqr):\n'],
+            [168, 4, '    def update_pawn_history(self, id_, new_loc, promo):\n'],
+            [170, 8, '        if promo:\n'],
+            [172, 8, '        else:\n'],
+            [175, 4, '    def get_records(self, for_web=False):\n'],
+            [177, 8, '        if for_web:\n'],
+            [184, 4, '    def reset_non_pawn_moves(self):\n'],
+            [188, 4, '    def delete_pawn(self, id):\n'],
+            [192, 4, '    def has_king_moved(self, color):\n'],
+            [194, 8, "        if color == 'W':\n"],
+            [196, 8, "        elif color == 'B':\n"],
+            [198, 8, '        else:\n'],
+            [202, 4, '    def get_start_king(self, color):\n'],
+            [204, 8, "        if color == 'W':\n"],
+            [206, 8, "        elif color == 'B':\n"],
+            [208, 8, '        else:\n'],
+            [212, 4, '    def update_rook_dict(self, rooks_moved):\n'],
+            [216, 4, '    def queen_side_rook_moved(self, color):\n'],
+            [219, 8, "        if color == 'W':\n"],
+            [221, 8, "        elif color == 'B':\n"],
+            [224, 4, '    def king_side_rook_moved(self, color):\n'],
+            [227, 8, "        if color == 'W':\n"],
+            [229, 8, "        elif color == 'B':\n"],
+            [232, 4, '    def __str__(self):\n'],
+            [238, 8, '        for k, v in self.rooks_moved.items():\n'],
+            [246, 8, '        for k, v in self.kings_moved.items():\n'],
+            [254, 8, '        for k, v in self.pawn_histories.items():\n'],
+            [284, 0, 'if __name__ == "__main__":\n']
+        ]
+    print_list(sort_cflc(cflc))
