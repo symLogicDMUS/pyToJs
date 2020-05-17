@@ -1,6 +1,6 @@
 
 
-def get_closing_brace_location(cflc_i, line_data_dict, line_data):
+def get_future_brace_location(cflc_i, line_data_dict, line_data):
     """ """
     line = line_data_dict[cflc_i]
     true_i = line_data.index(line)

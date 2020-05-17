@@ -1,91 +1,27 @@
-from pprint import pprint
+import re
 from print_list import print_list
-from get_future_brace_location import get_future_brace_location
-from get_line_data import get_line_data
 
 
-def get_future_brace_locations(line_data, line_data_dict, cflc_indexs):
+def refactor_imports(line_data):
     """ """
-    cb_locations = []
-    for i in cflc_indexs:
-        cb_locations.append(get_future_brace_location(i, line_data_dict, line_data))
-    return cb_locations
+    for i in range(len(line_data)):
+        if re.match(r'from(\s*)([a-zA-Z_.]+)(\s*)import(\s*)([a-zA-Z_*]+)', line_data[i][2]) is not None:
+            wspace1 = re.search(r'from(\s*)([a-zA-Z_.]+)(\s*)import(\s*)([a-zA-Z_*]+)', line_data[i][2]).group(1)
+            filepath = re.search(r'from(\s*)([a-zA-Z_.]+)(\s*)import(\s*)([a-zA-Z_*]+)', line_data[i][2]).group(2)
+            wspace2 = re.search(r'from(\s*)([a-zA-Z_.]+)(\s*)import(\s*)([a-zA-Z_*]+)', line_data[i][2]).group(3)
+            wspace3 = re.search(r'from(\s*)([a-zA-Z_.]+)(\s*)import(\s*)([a-zA-Z_*]+)', line_data[i][2]).group(4)
+            atrib = re.search(r'from(\s*)([a-zA-Z_.]+)(\s*)import(\s*)([a-zA-Z_*]+)', line_data[i][2]).group(5)
+            line_data[i][2] = 'import' + wspace1 + '{ ' + atrib + ' }' + wspace2 + 'from' + wspace3 + '"' + filepath + '"' + ";\n"
+            line_data[i][2] = line_data[i][2].replace('.', '/')
+        elif re.match(r'import(\s*)([a-zA-Z_.]+)', line_data[i][2]) is not None:
+            wspace = re.match(r'import(\s*)([a-zA-Z_.]+)', line_data[i][2]).group(1)
+            filepath = re.match(r'import(\s*)([a-zA-Z_.]+)', line_data[i][2]).group(2)
+            line_data[i][2] = 'import' + wspace + '"' + filepath + '"' + ';\n'
+            line_data[i][2] = line_data[i][2].replace('.', '/')
+    return line_data
 
 
 if __name__ == "__main__":
-    cflc_indexs = \
-        [
-            7,
-            9,
-            10,
-            16,
-            26,
-            29,
-            31,
-            34,
-            38,
-            45,
-            48,
-            52,
-            58,
-            61,
-            64,
-            65,
-            67,
-            68,
-            71,
-            77,
-            79,
-            85,
-            88,
-            91,
-            92,
-            94,
-            95,
-            98,
-            104,
-            106,
-            109,
-            111,
-            113,
-            115,
-            120,
-            130,
-            131,
-            133,
-            137,
-            139,
-            141,
-            143,
-            146,
-            149,
-            151,
-            153,
-            155,
-            157,
-            163,
-            166,
-            169,
-            171,
-            173,
-            175,
-            178,
-            180,
-            182,
-            184,
-            187,
-            190,
-            192,
-            194,
-            196,
-            198,
-            200,
-            202,
-            206,
-            213,
-            220,
-            243
-        ]
     line_data = \
         [
             [0, 1, ' from coordType.to_xy import to_xy\n'],
@@ -342,8 +278,4 @@ if __name__ == "__main__":
             [243, 0, 'if __name__ == "__main__":\n'],
             [244, 4, '    pass  # TODO: implement test\n']
         ]
-    line_data_dict = {}
-    for i in range(len(line_data)):
-        line_data_dict[line_data[i][0]] = line_data[i]
-    cb_locations = get_future_brace_locations(line_data, line_data_dict, cflc_indexs)
-    pprint(cb_locations)
+    print_list(refactor_imports(line_data))

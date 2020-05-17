@@ -4,10 +4,9 @@ from print_list import print_list
 def refactor_classes(line_data):
     """ """
     for i in range(len(line_data)):
-        if 'class' in line_data[i][1]:
-            line = line_data[i][1].replace(':', ' {')
-            line = 'export ' + line
-            line_data[i] = (line_data[i][0], line)
+        if 'class' in line_data[i][2]:
+            line_data[i][2] = line_data[i][2].replace(':', ' {')
+            line_data[i][2] = 'export ' + line_data[i][2]
     return line_data
 
 

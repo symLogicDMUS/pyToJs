@@ -4,8 +4,7 @@ from print_list import print_list
 
 def sort_cflc(cflc):
     """ """
-    cflc = sorted(cflc, key=itemgetter(1, 0))
-    cflc.reverse()
+    cflc = sorted(cflc, key=itemgetter(1, 0), reverse=True)
     return cflc
 
 
@@ -84,4 +83,4 @@ if __name__ == "__main__":
         [286, 8, '        for k, v in self.pawn_histories.items():\n'],
         [312, 0, 'if __name__ == "__main__":\n']
     ]
-print_list(sort_cflc(cflc))
+    print_list(sort_cflc(cflc))
