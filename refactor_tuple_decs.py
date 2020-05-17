@@ -1,24 +1,14 @@
 import re
 from print_list import print_list
-# ('.*'|".*"|( [a-zA-Z_][a-zA-Z0-9_.]+(\(.*\)|\[.*\])+) ) | ([a-zA-Z_][a-zA-Z0-9_]+) | ([0-9]+) )
-# ((([0-9]+)|([a-zA-Z_][a-zA-Z0-9_]+)|('(.*)')|("(.*)")|())\s*,\s*)
-# (('.*')|(".*")|[a-zA-Z_][a-zA-Z0-9_.]*(\(.*\)|\[.*\])+|[a-zA-Z_][a-zA-Z0-9_]*|[0-9]+)
 
-# (('.*')|(".*")|([a-zA-Z_][a-zA-Z0-9_.]*(\(.*\)|\[.*\])+)|([a-zA-Z_][a-zA-Z0-9_]*)|([0-9]+))\s*,\s*=
-
-# ((('.*')|(".*")|([a-zA-Z_][a-zA-Z0-9_.]*(\(.*\)|\[.*\])+)|([a-zA-Z_][a-zA-Z0-9_]*)|([0-9]+))+\s*,\s*)+
-
-# a, 'the small cat sat on the big dog', 2, 3, 4, obj.method_call(arg1, arg2, 'stuff'), Chess('game_name'), Chess['dict_key'] =
-
-# dict_stuff['a'](argument.method_call)
 
 def refactor_tuple_decs(line_data):
     """ """
     for i in range(len(line_data)):
-        if re.search(r'[^(]\S(((.*)\s*,\s*)+(.*))=', line_data[i][2]) is not None:
-            line = re.search(r'[^(]\S(((.*)\s*,\s*)+(.*))=', line_data[i][2]).group()
-            tuple_dec = re.search(r'[^(]\S(((.*)\s*,\s*)+(.*))=', line_data[i][2]).group(1)
-            line_data[i][2].replace(line, 'var [{}]'.format(tuple_dec))
+        if re.search(r'([a-zA-Z_][a-zA-Z0-9_]*\s*,\s*)+([a-zA-Z_][a-zA-Z0-9_]*)\s*=', line_data[i][2]) is not None:
+            line = re.search(r'([a-zA-Z_][a-zA-Z0-9_]*\s*,\s*)+([a-zA-Z_][a-zA-Z0-9_]*)\s*=', line_data[i][2]).group()
+            tuple_dec = re.search(r'([a-zA-Z_][a-zA-Z0-9_]*\s*,\s*)+([a-zA-Z_][a-zA-Z0-9_]*)\s*=', line_data[i][2]).group(1)
+            line_data[i][2].replace(line, 'var [{}] ='.format(tuple_dec))
     return line_data
 
 
