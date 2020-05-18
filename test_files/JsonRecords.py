@@ -1,4 +1,4 @@
- from coordType.to_xy import to_xy
+from coordType.to_xy import to_xy
 from coordType.to_rankfile import to_rankfile
 from getters.get_piece_type import get_piece_type
 from getters.get_piece_types import get_piece_types
@@ -228,6 +228,43 @@ class JsonRecords(object):
             return self.rooks_moved[(8, 1)]
         elif color == 'B':
             return self.rooks_moved[(8, 8)]
+
+    def delete_this_method_1(self):
+        """
+        Space: the final frontier. These are the voyages of the starship Enterprise.
+        Its continuing mission: to explore strange new worlds, to seek out new life
+        and new civilizations, to boldly go where no one has gone before.
+        """
+        # for every id in the list of pawn_history ids..
+        for id_ in self.pawn_histories: # TODO: delete this
+            # ..loop over the pawn histories of a a pawn with id id_
+            for i in range(0, len(self.pawn_histories[id_])):
+                # print the ith location that pawn with id_ was at
+                print(self.pawn_histories[id_][i])
+
+        # she sells sea shells by the sea shore
+
+        for id_ in self.pawn_histories:
+            for i in range(len(self.pawn_histories[id_])):
+                print(self.pawn_histories[id_][i])
+
+    def delete_this_method_2(self):
+        """
+        Our deepest fear is not that we are inadequate. Our deepest fear is that we are powerful
+        beyond measure. It is our light, not our darkness that most frightens us. We ask ourselves,
+        Who am I to be brilliant, gorgeous, talented, and fabulous?
+        """
+        for sqr in self.pawn_histories:
+            for i in range(0, len(self.pawn_histories[sqr])):
+                print(self.pawn_histories[sqr][i])
+
+        # Space: the final frontier. These are the voyages of the starship Enterprise.
+        # Its continuing mission: to explore strange new worlds, to seek out new life
+        # and new civilizations, to boldly go where no one has gone before.
+        #
+        # for sqr in self.pawn_histories:
+        #     for i in range(len(self.pawn_histories[sqr])):
+        #         print(self.pawn_histories[sqr][i])
 
     def __str__(self):
         """called when object is argument to print"""

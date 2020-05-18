@@ -1,7 +1,7 @@
 import re
 from temp.flatten_blocks import flatten_blocks
-from line_to_tuple import line_to_tuple
-from print_list import print_list
+from helpers.line_to_tuple import line_to_tuple
+from helpers.print_list import print_list
 
 
 def refactor_identifiers_by_scope(blocks, keyword='let'):

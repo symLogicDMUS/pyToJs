@@ -1,5 +1,4 @@
-from print_list import print_list
-from pprint import pprint
+from helpers.print_list import print_list
 
 
 def get_blocks(line_data, block_edge_pairs):

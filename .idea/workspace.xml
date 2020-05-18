@@ -7,7 +7,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/refactor_tuple_decs.py" beforeDir="false" afterPath="$PROJECT_DIR$/refactor_tuple_decs.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,24 +36,13 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\bjrat\source\repos\Python\pyToJs" />
+      <recent name="C:\Users\bjrat\source\repos\Python\pyToJs\helpers" />
       <recent name="C:\Users\bjrat\source\repos\Python\pyToJs\temp" />
       <recent name="C:\Users\bjrat\source\repos\Python\pyToJs\result_files" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.refactor_tuple_decs">
-    <configuration name="get_line_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.py_to_js">
+    <configuration name="get_lines" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pyToJs" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -62,11 +50,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/helpers" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/get_line_data.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/helpers/get_lines.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -75,7 +63,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="refactor_dict_methods (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="py_to_js" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pyToJs" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -87,7 +75,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/refactor_dict_methods.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py_to_js.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -96,7 +84,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="refactor_for_in" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="refactor_comments" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pyToJs" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -108,7 +96,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/refactor_for_in.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\bjrat\source\repos\Python\pyToJs\helpers\refactor_comments.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -117,7 +105,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="refactor_in_operator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="refactor_doc_strings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pyToJs" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -129,7 +117,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/refactor_in_operator.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\bjrat\source\repos\Python\pyToJs\helpers\refactor_doc_strings.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -138,7 +126,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="refactor_tuple_decs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="refactor_for_range" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pyToJs" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -150,7 +138,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/refactor_tuple_decs.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\bjrat\source\repos\Python\pyToJs\helpers\refactor_for_range.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -161,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.refactor_tuple_decs" />
-        <item itemvalue="Python.get_line_data" />
-        <item itemvalue="Python.refactor_dict_methods (1)" />
-        <item itemvalue="Python.refactor_for_in" />
-        <item itemvalue="Python.refactor_in_operator" />
+        <item itemvalue="Python.py_to_js" />
+        <item itemvalue="Python.get_lines" />
+        <item itemvalue="Python.refactor_doc_strings" />
+        <item itemvalue="Python.refactor_for_range" />
+        <item itemvalue="Python.refactor_comments" />
       </list>
     </recent_temporary>
   </component>
@@ -187,61 +175,63 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="698" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589735445556">
+    <state x="698" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589765510043">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="698" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1589735445556" />
-    <state width="1460" height="298" key="DebuggerActiveHint" timestamp="1589734936908">
+    <state x="698" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1589765510043" />
+    <state width="1460" height="298" key="DebuggerActiveHint" timestamp="1589758181047">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1460" height="298" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1589734936908" />
-    <state width="1899" height="120" key="GridCell.Tab.0.bottom" timestamp="1589745601877">
+    <state width="1460" height="298" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1589758181047" />
+    <state width="1882" height="226" key="GridCell.Tab.0.bottom" timestamp="1589767202088">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="120" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589745601877" />
-    <state width="1899" height="120" key="GridCell.Tab.0.center" timestamp="1589745601877">
+    <state width="1882" height="226" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589767202088" />
+    <state width="1882" height="226" key="GridCell.Tab.0.center" timestamp="1589767202088">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="120" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589745601877" />
-    <state width="1899" height="120" key="GridCell.Tab.0.left" timestamp="1589745601877">
+    <state width="1882" height="226" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589767202088" />
+    <state width="1882" height="226" key="GridCell.Tab.0.left" timestamp="1589767202088">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="120" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589745601877" />
-    <state width="1899" height="120" key="GridCell.Tab.0.right" timestamp="1589745601877">
+    <state width="1882" height="226" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589767202088" />
+    <state width="1882" height="226" key="GridCell.Tab.0.right" timestamp="1589767202088">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="120" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589745601877" />
-    <state width="1899" height="388" key="GridCell.Tab.1.bottom" timestamp="1589745601865">
+    <state width="1882" height="226" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589767202088" />
+    <state width="1882" height="226" key="GridCell.Tab.1.bottom" timestamp="1589767201986">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="388" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589745601865" />
-    <state width="1899" height="388" key="GridCell.Tab.1.center" timestamp="1589745601865">
+    <state width="1882" height="226" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589767201986" />
+    <state width="1882" height="226" key="GridCell.Tab.1.center" timestamp="1589767201985">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="388" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589745601865" />
-    <state width="1899" height="388" key="GridCell.Tab.1.left" timestamp="1589745601865">
+    <state width="1882" height="226" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589767201985" />
+    <state width="1882" height="226" key="GridCell.Tab.1.left" timestamp="1589767201985">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="388" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589745601865" />
-    <state width="1899" height="388" key="GridCell.Tab.1.right" timestamp="1589745601865">
+    <state width="1882" height="226" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589767201985" />
+    <state width="1882" height="226" key="GridCell.Tab.1.right" timestamp="1589767201986">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="388" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589745601865" />
+    <state width="1882" height="226" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589767201986" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1589610654088">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1589610654088" />
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1589729526627">
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1589756486226">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589729526627" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589756486226" />
     <state x="585" y="135" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1589718526103">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -1,6 +1,4 @@
-from pprint import pprint
-from print_list import print_list
-from itertools import repeat
+from helpers.print_list import print_list
 
 
 def add_ending_brace(line_data, line_data_dict, indent_shifts):
