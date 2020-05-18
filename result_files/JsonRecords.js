@@ -6,9 +6,9 @@ import { * } from "misc/gStatusTypes";
 import { JsonRecordError } from "misc/JsonRecordError";
 import "json";
 export class JsonRecords(object) {
-    /*contains info for new or saved game relevant to performing a castle or enPassant**/
-    constructor(file, board, jRecords=None) {
-        if (jRecords is None) {
+    /*contains info for new or saved game relevant to perfoming a castle or enPassant**/
+    constructor(file, board, jRecords=undefined) {
+        if (jRecords is undefined) {
             let f = open(file, "r")
             let jsonData = f.read()
             let records = json.loads(jsonData)
@@ -26,7 +26,7 @@ export class JsonRecords(object) {
         this.gameStatus = records['gameStatus']
         this.condition = records['condition']
         this.winner = records['winner']
-        if (jRecords is None) {
+        if (jRecords is undefined) {
             this.InitPawnIds(board, file=file)
             this.RankfileToTuple()
         }
@@ -65,7 +65,7 @@ export class JsonRecords(object) {
         rooksMoved = {}
         kingsMoved = {}
         pawnHistories = {}
-        lastPawnMove = None
+        lastPawnMove = undefined
         for (var rf of Object.keys(this.rooksMoved)) {
             let xy = toXy(rf)
             rooksMoved[xy] = this.rooksMoved[rf]
@@ -92,7 +92,7 @@ export class JsonRecords(object) {
         this.rooksMoved = rooksMoved
         this.kingsMoved = kingsMoved
         this.pawnHistories = pawnHistories
-        if (this.lastPawnMove != 'None') {
+        if (this.lastPawnMove != 'undefined') {
             this.lastPawnMove = toXy(this.lastPawnMove)
         }
     }
@@ -128,7 +128,7 @@ export class JsonRecords(object) {
         this.rooksMoved = rooksMoved
         this.kingsMoved = kingsMoved
         this.pawnHistories = pawnHistories
-        if (this.lastPawnMove != 'None') {
+        if (this.lastPawnMove != 'undefined') {
             this.lastPawnMove = toRankfile(this.lastPawnMove)
         }
     }

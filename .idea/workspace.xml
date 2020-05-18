@@ -84,27 +84,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="refactor_comments" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pyToJs" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\bjrat\source\repos\Python\pyToJs\helpers\refactor_comments.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="refactor_doc_strings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pyToJs" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -147,13 +126,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="refactor_none_object" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pyToJs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/helpers" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/helpers/refactor_none_object.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.py_to_js" />
+        <item itemvalue="Python.refactor_none_object" />
         <item itemvalue="Python.get_lines" />
         <item itemvalue="Python.refactor_doc_strings" />
         <item itemvalue="Python.refactor_for_range" />
-        <item itemvalue="Python.refactor_comments" />
       </list>
     </recent_temporary>
   </component>
@@ -192,38 +192,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1460" height="298" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1589758181047" />
-    <state width="1882" height="226" key="GridCell.Tab.0.bottom" timestamp="1589767202088">
+    <state width="1899" height="97" key="GridCell.Tab.0.bottom" timestamp="1589770629596">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1882" height="226" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589767202088" />
-    <state width="1882" height="226" key="GridCell.Tab.0.center" timestamp="1589767202088">
+    <state width="1899" height="97" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589770629596" />
+    <state width="1899" height="97" key="GridCell.Tab.0.center" timestamp="1589770629596">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1882" height="226" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589767202088" />
-    <state width="1882" height="226" key="GridCell.Tab.0.left" timestamp="1589767202088">
+    <state width="1899" height="97" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589770629596" />
+    <state width="1899" height="97" key="GridCell.Tab.0.left" timestamp="1589770629596">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1882" height="226" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589767202088" />
-    <state width="1882" height="226" key="GridCell.Tab.0.right" timestamp="1589767202088">
+    <state width="1899" height="97" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589770629596" />
+    <state width="1899" height="97" key="GridCell.Tab.0.right" timestamp="1589770629596">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1882" height="226" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589767202088" />
-    <state width="1882" height="226" key="GridCell.Tab.1.bottom" timestamp="1589767201986">
+    <state width="1899" height="97" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589770629596" />
+    <state width="1899" height="2" key="GridCell.Tab.1.bottom" timestamp="1589770629585">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1882" height="226" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589767201986" />
-    <state width="1882" height="226" key="GridCell.Tab.1.center" timestamp="1589767201985">
+    <state width="1899" height="2" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589770629585" />
+    <state width="1899" height="2" key="GridCell.Tab.1.center" timestamp="1589770629585">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1882" height="226" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589767201985" />
-    <state width="1882" height="226" key="GridCell.Tab.1.left" timestamp="1589767201985">
+    <state width="1899" height="2" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589770629585" />
+    <state width="1899" height="2" key="GridCell.Tab.1.left" timestamp="1589770629585">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1882" height="226" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589767201985" />
-    <state width="1882" height="226" key="GridCell.Tab.1.right" timestamp="1589767201986">
+    <state width="1899" height="2" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589770629585" />
+    <state width="1899" height="2" key="GridCell.Tab.1.right" timestamp="1589770629585">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1882" height="226" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589767201986" />
+    <state width="1899" height="2" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589770629585" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1589610654088">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

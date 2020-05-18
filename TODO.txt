@@ -1,0 +1,9 @@
+Implement methods to define refactoring variable declarations by method scope, meaning put the 'let' key word before every variable
+the first time it appears in a method. (Currently the let keyword is placed in front of every new variable the first time it appears 
+in a file.) To do this, take line_data and record the indexs of the lines that are function definitions, for example would record the 
+index of [39,  4, '    update(...) {\n'] from line_data. Then find the closest closing brace with higher index (in this case higher 
+than 39) that has the same indent number (in this case indent of 4) and record the index of the method's closing brace. Then create 
+a list of lists of length 2 [[12, 20], [39, 51] [53, 56]] using more_itertools.chunked. The first index is function definition and 
+second index is closing brace. if say [53, 56] was instead [53], there is a missing index so throw an error. join line_data[i][2] 
+for every line_data between 39 and 51 or other example. We now have the bodies of methods as text blocks. Replace the first instance 
+of every variable in every text block, then split back into lines again, and update line_data.
