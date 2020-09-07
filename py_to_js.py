@@ -27,9 +27,11 @@ from helpers.refactor_true_and_false import refactor_true_and_false
 from helpers.snake_to_camel import snake_to_camel
 
 
-def py_to_js(file_name, multiples):
+def py_to_js(file_path):
     """ """
-    lines = get_lines(file_name)
+    file_path_js = file_path.replace('.py', '.js')
+    os.rename(file_path, file_path_js)
+    lines = get_lines(file_path_js)
     line_data, line_data_dict = get_line_data(lines)
     cflc_indexs = get_indexs_cflc(line_data)
     cb_locations = get_future_brace_locations(line_data, line_data_dict, cflc_indexs)
@@ -43,7 +45,7 @@ def py_to_js(file_name, multiples):
     line_data = refactor_methods(line_data)
     line_data = refactor_classes(line_data)
     line_data = refactor_imports(line_data)
-    line_data, line_data_dict = refactor_identifiers(line_data, file_name)
+    line_data, line_data_dict = refactor_identifiers(line_data, file_path_js)
     line_data = refactor_comments(line_data)
     line_data = refactor_doc_strings(line_data)
     line_data = refactor_for_range(line_data)
@@ -56,12 +58,16 @@ def py_to_js(file_name, multiples):
     line_data = refactor_true_and_false(line_data)
     lines = list(map(lambda line: line[2], line_data))
     lines = snake_to_camel(lines)
-    if 'result_files' not in os.listdir('.'):
-        os.chdir('..')
-    f = open('./result_files/{}.js'.format(file_name), 'w')
+    f = open(file_path_js, 'w')
     f.writelines(lines)
     f.close()
 
 
 if __name__ == "__main__":
-    py_to_js('JsonRecords', 4)
+    # py_to_js('/home/brian/drafts/pyToJs/dummy.py')
+    for root, dirs, files in os.walk("./ckc-game-logic"):
+        for file in files:
+            if file.endswith('.py'):
+                path = os.path.join(root, file)
+                path = os.path.realpath(path)
+                py_to_js(path)

@@ -6,7 +6,7 @@ def refactor_comments(line_data):
     """"""
     for i in range(len(line_data)):
         if re.search(r'\s*#(.*)', line_data[i][2]) is not None:
-            line_data[i][2] = line_data[i][2].replace('#', '// ', 1)
+            line_data[i][2] = line_data[i][2].replace('#', '#', 1)
     return line_data
 
 

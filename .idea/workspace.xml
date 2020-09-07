@@ -1,11 +1,314 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c04768e1-8209-406e-9737-811b1276a086" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/get_indexs_triple_quote.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/refactor_doc_strings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/is_rankfile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rankmap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/to_rankfile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xy_to_rf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pyToJs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pyToJs.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/refactor_tuple_decs.py" beforeDir="false" afterPath="$PROJECT_DIR$/refactor_tuple_decs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/JsonRecords/JsonRecordError.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/JsonRecords/JsonRecords.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/JsonRecords/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/JsonRecords/init_pawn_ids.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/JsonRecords/teriminal_play/JsonRecords.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/JsonRecords/teriminal_play/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/bools/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/bools/clear_path.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/bools/exit_.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/bools/game_over.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/bools/is_valid_input.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/captured/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/captured/remove_captured.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/color/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/color/get_ai_color.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/color/get_color.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/color/get_next_color.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/color/get_piece_color.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/coordType/Depth.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/coordType/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/coordType/rankfile/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/coordType/rankfile/is_rankfile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/coordType/rankfile/map_xy_to_rf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/coordType/rankfile/nest_level/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/coordType/rankfile/nest_level/funcs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/coordType/rankfile/nest_level/list_tuples.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/coordType/rankfile/nest_level/list_tuples_tuples.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/coordType/rankfile/nest_level/no_change.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/coordType/rankfile/nest_level/tuple_.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/coordType/rankfile/to_rankfile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/coordType/rankfile/tuple_keys.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/coordType/rankfile/xy_keys_to_rf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/coordType/rankfile/xy_values_to_rf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/coordType/rankmap.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/coordType/xy/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/coordType/xy/is_xy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/coordType/xy/map_rf_to_xy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/coordType/xy/nest_level/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/coordType/xy/nest_level/funcs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/coordType/xy/nest_level/list_list_rf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/coordType/xy/nest_level/list_rf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/coordType/xy/rf_keys_to_xy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/coordType/xy/rf_values_to_xy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/coordType/xy/to_xy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/council_logic/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/fenParser/Fen.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/fenParser/GameStatus/GameStatus.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/fenParser/GameStatus/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/fenParser/GameStatus/g_status_types.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/fenParser/GameStatus/get_fen_data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/fenParser/GameStatus/get_fen_dict.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/fenParser/GameStatus/get_status_str.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/fenParser/GameStatus/is_checkmate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/fenParser/GameStatus/parse_status_str.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/fenParser/GameStatus/status_update.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/fenParser/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/fenParser/getBoard/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/fenParser/getBoard/add_digit_to_id.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/fenParser/getBoard/convert_id.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/fenParser/getBoard/get_pos_str.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/fenParser/getBoard/get_trav_str.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/fenParser/getBoard/init_board.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/fenParser/getBoard/num_to_sharps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/fenParser/getBoard/pos_str_to_list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/fenParser/getBoard/setup_board.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/fenParser/getBoard/top/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/fenParser/getBoard/top/get_board.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/fenParser/getFen/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/fenParser/getFen/get_digits.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/fenParser/getFen/get_id_board.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/fenParser/getFen/get_piece_fen.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/fenParser/getFen/get_piece_fens.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/fenParser/getFen/join_to_fen.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/fenParser/getFen/join_to_row.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/fenParser/getFen/join_to_rows.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/fenParser/getFen/top/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/fenParser/getFen/top/get_fen.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/fenParser/get_full_fen.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/getters/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/getters/get_input.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/getters/get_random_move.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/getters/get_reset_piece_dicts.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/helpers/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/helpers/all_xy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/helpers/create_data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/helpers/fifty_move_draw.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/helpers/formulas.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/helpers/pick_name.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/helpers/save_bd.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/helpers/sort _by_len.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/misc/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/misc/all_xy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/misc/board_pattern.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/misc/checker_board.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/misc/create_data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/misc/fifty_move_draw.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/misc/formulas.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/misc/make_move.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/misc/pick_name.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/misc/remove_captured.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/misc/save.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/misc/save_bd.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/misc/sort _by_len.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/misc/unicode_pieces.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/movePiece/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/movePiece/attempt_move.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/movePiece/castle_move.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/movePiece/en_passant_move.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/movePiece/is_legal.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/movePiece/move.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/movePiece/ply.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/movePiece/top/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/movePiece/top/make_move.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/pathsInfo/PathData.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/pathsInfo/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/pathsInfo/get_coord_path.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/pathsInfo/get_index_first_piece.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/pathsInfo/get_path.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/pathsInfo/get_path_data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/pathsInfo/get_path_dir.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/pathsInfo/get_piece_colors.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/pathsInfo/get_piece_matches_path.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/pathsInfo/get_pieces_on_path.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/pathsInfo/get_statuses.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/pathsInfo/get_sub_path.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/pathsInfo/piece_types.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/pathsInfo/top/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/pathsInfo/top/get_num_path_attackers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/pathsInfo/top/get_pathdata_dict.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/piece_type/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/piece_type/get_piece_type.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/piece_type/get_piece_types.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/piece_type/is_piece.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/pins/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/pins/get_index_second_piece.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/pins/get_pin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/pins/is_pin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/pins/top/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/pins/top/get_pins.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/printers/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/printers/board_pattern.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/printers/checker_board.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/printers/get_unicode_board.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/printers/get_unicode_piece.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/printers/print_args.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/printers/print_board.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/printers/print_board_highlight_sd.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/printers/print_sqr_highlights.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/printers/unicode_pieces.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/ranges/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/ranges/get_range.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/ranges/get_range_func.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/ranges/get_ranges_dict.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/ranges/jumps/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/ranges/jumps/filter_init_jumps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/ranges/jumps/get_init_jumps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/ranges/jumps/get_jumps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/ranges/king/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/ranges/king/get_king_actual_moves.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/ranges/king/get_king_initial_moves.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/ranges/king/get_king_moves.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/ranges/king/get_king_safe_moves.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/ranges/king/top/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/ranges/king/top/king.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/ranges/paths/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/ranges/paths/get_path.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/ranges/paths/get_paths.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/ranges/pawn/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/ranges/pawn/get_2_sqr_jump.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/ranges/pawn/get_actual_captures.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/ranges/pawn/get_potential_1_sqr_jumps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/ranges/pawn/get_potential_captures.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/ranges/pawn/has_moved.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/ranges/pawn/is_actual_1_sqr_jumps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/ranges/pawn/moved_once_2_sqrs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/ranges/pawn/top/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/ranges/pawn/top/pawn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/ranges/pawn/valid_2_sqr_jump.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/ranges/range_funcs_special.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/ranges/restriction.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/ranges/specialMoves/SpecialMoves.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/ranges/specialMoves/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/ranges/specialMoves/castle/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/ranges/specialMoves/castle/can_king_side_castle.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/ranges/specialMoves/castle/can_queen_side_castle.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/ranges/specialMoves/castle/castle_target_squares.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/ranges/specialMoves/castle/get_castle_target_square.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/ranges/specialMoves/castle/get_king_side_castle_paths.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/ranges/specialMoves/castle/get_queen_side_castle_paths.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/ranges/specialMoves/castle/get_rook_locations.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/ranges/specialMoves/castle/get_rook_start_and_dest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/ranges/specialMoves/castle/king_side_castle_paths.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/ranges/specialMoves/castle/king_start_pos.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/ranges/specialMoves/castle/kingsMoved.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/ranges/specialMoves/castle/queen_side_castle_paths.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/ranges/specialMoves/castle/rook_locations.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/ranges/specialMoves/castle/rook_start_and_dest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/ranges/specialMoves/castle/safe_path.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/ranges/specialMoves/enPassant/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/ranges/specialMoves/enPassant/can_en_passant.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/ranges/specialMoves/enPassant/en_passant_black_attack_rank.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/ranges/specialMoves/enPassant/en_passant_white_attack_rank.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/ranges/specialMoves/enPassant/en_passants.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/ranges/specialMoves/enPassant/get_en_passant_alignment_key.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/ranges/specialMoves/enPassant/get_id.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/ranges/specialMoves/enPassant/get_t_sqr.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/ranges/specialMoves/enPassant/is_enp_black_att_r.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/ranges/specialMoves/enPassant/is_enp_white_att_r.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/ranges/specialMoves/enPassant/pawn_2_sqr_first_moves.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/ranges/specialMoves/enPassant/pawn_moved_once_2_sqrs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/ranges/specialMoves/pawn_promotion/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/ranges/specialMoves/pawn_promotion/get_pawn_dict.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/ranges/specialMoves/pawn_promotion/get_pawn_ranges.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/ranges/specialMoves/pawn_promotion/get_pawn_tuples.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/ranges/specialMoves/pawn_promotion/is_promo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/ranges/specialMoves/pawn_promotion/promote.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/ranges/special_defs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/ranges/top/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/ranges/top/get_final_ranges.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/ranges/top/get_ranges.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/restriction/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/restriction/get_multithreat_restriction.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/restriction/get_num_pieces_checking_king.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/restriction/restriction.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/sqr_case/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/sqr_case/get_sqr_case.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/sqr_case/is_empty_sqr.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/sqr_case/oob.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/sqr_case/sqr_cases.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/step_funcs/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/step_funcs/get_rotation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/step_funcs/get_step_funcs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/step_funcs/step_funcs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/test_objects/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/test_objects/_standard_id_dict.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/test_objects/_standard_piece_defs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/test_objects/get_json.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/test_objects/get_standard_id_dict.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/test_objects/get_standard_piece_defs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/test_objects/hypo_board_samples.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/test_objects/sample_board_dicts.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/test_objects/sample_unicode_board_strs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/test_objects/write_json.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/threatArea/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/threatArea/get_actual_pawn_threats.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/threatArea/get_hypo_board.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/threatArea/get_hypo_boards.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/threatArea/get_king_loc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/threatArea/get_king_locs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/threatArea/get_king_threats.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/threatArea/get_offset_threats.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/threatArea/get_path_threats.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/threatArea/get_pawn_threats.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/threatArea/get_potential_pawn_threats.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/threatArea/get_range_instance.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/threatArea/top/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/threatArea/top/get_threat_area.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckc-game-logic/threatArea/top/sqr_under_attack.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/get_file_str.py" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/get_file_str.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/get_lines.py" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/get_lines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/refactor_comments.py" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/refactor_comments.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/refactor_identifiers.py" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/refactor_identifiers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_to_js.py" beforeDir="false" afterPath="$PROJECT_DIR$/py_to_js.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result_files/JsonRecords.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result_files/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result_files/classes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result_files/igpay.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result_files/temp.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_files/Chess.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_files/JsonRecords.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_files/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_files/classes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_files/get_board.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_files/movePiece/attempt_move.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_files/movePiece/castle_move.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_files/movePiece/en_passant_move.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_files/movePiece/is_legal.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_files/movePiece/move.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_files/movePiece/ply.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_files/play.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,15 +326,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1btHugs4Ds1yXkd85YLayGm8Zx2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -41,7 +345,7 @@
       <recent name="C:\Users\bjrat\source\repos\Python\pyToJs\result_files" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.py_to_js">
+  <component name="RunManager" selected="Python.xy_to_rf">
     <configuration name="get_lines" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pyToJs" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -84,48 +388,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="refactor_doc_strings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pyToJs" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\bjrat\source\repos\Python\pyToJs\helpers\refactor_doc_strings.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="refactor_for_range" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pyToJs" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\bjrat\source\repos\Python\pyToJs\helpers\refactor_for_range.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="refactor_none_object" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pyToJs" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -147,16 +409,59 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="to_rankfile" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pyToJs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/to_rankfile.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="xy_to_rf" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pyToJs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xy_to_rf.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.xy_to_rf" />
         <item itemvalue="Python.py_to_js" />
+        <item itemvalue="Python.to_rankfile" />
         <item itemvalue="Python.refactor_none_object" />
         <item itemvalue="Python.get_lines" />
-        <item itemvalue="Python.refactor_doc_strings" />
-        <item itemvalue="Python.refactor_for_range" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -170,80 +475,58 @@
     </task>
     <servers />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.js" />
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="698" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589765510043">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="719" y="355" width="544" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599458332217">
+      <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="698" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1589765510043" />
-    <state width="1460" height="298" key="DebuggerActiveHint" timestamp="1589758181047">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="719" y="355" width="544" height="403" key="#com.intellij.fileTypes.FileTypeChooser/72.27.1848.1053@72.27.1848.1053" timestamp="1599458332217" />
+    <state width="1825" height="361" key="GridCell.Tab.0.bottom" timestamp="1599458220483">
+      <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1460" height="298" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1589758181047" />
-    <state width="1899" height="97" key="GridCell.Tab.0.bottom" timestamp="1589770629596">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1825" height="361" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1599458220483" />
+    <state width="1825" height="361" key="GridCell.Tab.0.center" timestamp="1599458220481">
+      <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1899" height="97" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589770629596" />
-    <state width="1899" height="97" key="GridCell.Tab.0.center" timestamp="1589770629596">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1825" height="361" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1599458220481" />
+    <state width="1825" height="361" key="GridCell.Tab.0.left" timestamp="1599458220481">
+      <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1899" height="97" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589770629596" />
-    <state width="1899" height="97" key="GridCell.Tab.0.left" timestamp="1589770629596">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1825" height="361" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1599458220481" />
+    <state width="1825" height="361" key="GridCell.Tab.0.right" timestamp="1599458220482">
+      <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1899" height="97" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589770629596" />
-    <state width="1899" height="97" key="GridCell.Tab.0.right" timestamp="1589770629596">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1825" height="361" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1599458220482" />
+    <state x="485" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1599453448355">
+      <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1899" height="97" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589770629596" />
-    <state width="1899" height="2" key="GridCell.Tab.1.bottom" timestamp="1589770629585">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="485" y="188" width="1022" height="737" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1599453448355" />
+    <state x="610" y="193" width="762" height="728" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1599456335104">
+      <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1899" height="2" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589770629585" />
-    <state width="1899" height="2" key="GridCell.Tab.1.center" timestamp="1589770629585">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="610" y="193" width="762" height="728" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/72.27.1848.1053@72.27.1848.1053" timestamp="1599456335104" />
+    <state x="1110" y="225" width="618" height="580" key="find.popup" timestamp="1599456157920">
+      <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1899" height="2" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589770629585" />
-    <state width="1899" height="2" key="GridCell.Tab.1.left" timestamp="1589770629585">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="1110" y="225" width="618" height="580" key="find.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1599456157920" />
+    <state x="828" y="339" width="325" height="436" key="refactoring.ChangeSignatureDialog" timestamp="1599453829443">
+      <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1899" height="2" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589770629585" />
-    <state width="1899" height="2" key="GridCell.Tab.1.right" timestamp="1589770629585">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="2" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589770629585" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1589610654088">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1589610654088" />
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1589756486226">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589756486226" />
-    <state x="585" y="135" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1589718526103">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="585" y="135" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1589718526103" />
-    <state x="656" y="118" width="607" height="804" key="find.popup" timestamp="1589739215478">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="656" y="118" width="607" height="804" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589739215478" />
-    <state x="616" y="173" width="670" height="676" key="search.everywhere.popup" timestamp="1589735450147">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="616" y="173" width="670" height="676" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589735450147" />
+    <state x="828" y="339" width="325" height="436" key="refactoring.ChangeSignatureDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1599453829443" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
