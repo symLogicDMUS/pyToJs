@@ -64,10 +64,10 @@ def py_to_js(file_path):
 
 
 if __name__ == "__main__":
-    # py_to_js('/home/brian/drafts/pyToJs/dummy.py')
     for root, dirs, files in os.walk("./ckc-game-logic"):
         for file in files:
             if file.endswith('.py'):
+                print(file)
                 path = os.path.join(root, file)
                 path = os.path.realpath(path)
                 py_to_js(path)

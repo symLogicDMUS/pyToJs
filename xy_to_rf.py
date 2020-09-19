@@ -6,10 +6,15 @@ from to_rankfile import to_rankfile
 
 def xy_to_rf(file_path):
     """ """
+    if 'misc' in file_path:
+        return
+    if 'printers' in file_path:
+        return
+    print(file_path)
     f = open(file_path, 'r')
     file_str = f.read()
     f.close()
-    coords = re.findall("(\(\d, \d\)):", file_str)
+    coords = re.findall("(\(\d, \d\))", file_str)
     rankfiles = list(map(lambda m: to_rankfile(m), coords))
     if len(rankfiles) != len(coords):
         print("ERROR in xy_to_rf.py")
@@ -21,7 +26,7 @@ def xy_to_rf(file_path):
 
 
 if __name__ == "__main__":
-    for root, dirs, files in os.walk("./ckc-game-logic"):
+    for root, dirs, files in os.walk("./terminal_play"):
         for file in files:
             if file.endswith('.js'):
                 path = os.path.join(root, file)

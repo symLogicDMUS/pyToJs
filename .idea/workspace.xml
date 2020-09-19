@@ -20,13 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c04768e1-8209-406e-9737-811b1276a086" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/is_rankfile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rankmap.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/to_rankfile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy_to_rf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/str_xy_to_rf.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/pyToJs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pyToJs.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ckc-game-logic/JsonRecords/JsonRecordError.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ckc-game-logic/JsonRecords/JsonRecords.py" beforeDir="false" />
@@ -287,28 +283,8 @@
       <change beforePath="$PROJECT_DIR$/ckc-game-logic/threatArea/top/__init__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ckc-game-logic/threatArea/top/get_threat_area.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ckc-game-logic/threatArea/top/sqr_under_attack.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helpers/get_file_str.py" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/get_file_str.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helpers/get_lines.py" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/get_lines.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helpers/refactor_comments.py" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/refactor_comments.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helpers/refactor_identifiers.py" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/refactor_identifiers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/py_to_js.py" beforeDir="false" afterPath="$PROJECT_DIR$/py_to_js.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result_files/JsonRecords.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result_files/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result_files/classes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result_files/igpay.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result_files/temp.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/Chess.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/JsonRecords.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/classes.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/get_board.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/movePiece/attempt_move.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/movePiece/castle_move.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/movePiece/en_passant_move.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/movePiece/is_legal.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/movePiece/move.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/movePiece/ply.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_files/play.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xy_to_rf.py" beforeDir="false" afterPath="$PROJECT_DIR$/xy_to_rf.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -335,7 +311,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -345,28 +321,7 @@
       <recent name="C:\Users\bjrat\source\repos\Python\pyToJs\result_files" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.xy_to_rf">
-    <configuration name="get_lines" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pyToJs" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/helpers" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/helpers/get_lines.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.str_xy_to_rf">
     <configuration name="py_to_js" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pyToJs" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -401,6 +356,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/helpers/refactor_none_object.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="str_xy_to_rf" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pyToJs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/str_xy_to_rf.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -453,15 +429,15 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.str_xy_to_rf" />
         <item itemvalue="Python.xy_to_rf" />
         <item itemvalue="Python.py_to_js" />
         <item itemvalue="Python.to_rankfile" />
         <item itemvalue="Python.refactor_none_object" />
-        <item itemvalue="Python.get_lines" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -483,38 +459,68 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="719" y="355" width="544" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599458332217">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="719" y="355" width="544" height="403" key="#com.intellij.fileTypes.FileTypeChooser/72.27.1848.1053@72.27.1848.1053" timestamp="1599458332217" />
-    <state width="1825" height="361" key="GridCell.Tab.0.bottom" timestamp="1599458220483">
-      <screen x="72" y="27" width="1848" height="1053" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1599770404903">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599770404902" />
+    <state width="1899" height="474" key="GridCell.Tab.0.bottom" timestamp="1600236147025">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="474" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600236147025" />
     <state width="1825" height="361" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1599458220483" />
-    <state width="1825" height="361" key="GridCell.Tab.0.center" timestamp="1599458220481">
-      <screen x="72" y="27" width="1848" height="1053" />
+    <state width="1899" height="474" key="GridCell.Tab.0.center" timestamp="1600236147025">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1899" height="474" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600236147025" />
     <state width="1825" height="361" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1599458220481" />
-    <state width="1825" height="361" key="GridCell.Tab.0.left" timestamp="1599458220481">
-      <screen x="72" y="27" width="1848" height="1053" />
+    <state width="1899" height="474" key="GridCell.Tab.0.left" timestamp="1600236147025">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1899" height="474" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600236147025" />
     <state width="1825" height="361" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1599458220481" />
-    <state width="1825" height="361" key="GridCell.Tab.0.right" timestamp="1599458220482">
-      <screen x="72" y="27" width="1848" height="1053" />
+    <state width="1899" height="474" key="GridCell.Tab.0.right" timestamp="1600236147025">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1899" height="474" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600236147025" />
     <state width="1825" height="361" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1599458220482" />
-    <state x="485" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1599453448355">
-      <screen x="72" y="27" width="1848" height="1053" />
+    <state width="1899" height="418" key="GridCell.Tab.1.bottom" timestamp="1599618051863">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1899" height="418" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599618051863" />
+    <state width="1899" height="418" key="GridCell.Tab.1.center" timestamp="1599618051863">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="418" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599618051863" />
+    <state width="1899" height="418" key="GridCell.Tab.1.left" timestamp="1599618051863">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="418" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599618051863" />
+    <state width="1899" height="418" key="GridCell.Tab.1.right" timestamp="1599618051863">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="418" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599618051863" />
+    <state x="429" y="159" width="1022" height="737" key="SettingsEditor" timestamp="1599517768319">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="429" y="159" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1599517768319" />
     <state x="485" y="188" width="1022" height="737" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1599453448355" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1599683130946">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599683130946" />
     <state x="610" y="193" width="762" height="728" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1599456335104">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
@@ -527,9 +533,20 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="828" y="339" width="325" height="436" key="refactoring.ChangeSignatureDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1599453829443" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1600236146916">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600236146916" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/to_rankfile.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
